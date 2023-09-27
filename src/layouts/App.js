@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const App = ({ children }) => {
+const App = ({ children }) => {
   return (
     <main>
       <h1>@vt/react-lazy</h1>
@@ -20,3 +20,5 @@ export const App = ({ children }) => {
     </main>
   );
 };
+
+export default App;
